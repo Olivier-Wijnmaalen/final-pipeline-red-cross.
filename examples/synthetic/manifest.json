@@ -1,0 +1,10 @@
+{
+  "run_id": "dema-synthetic-sample",
+  "status": "complete",
+  "assessment_mode": "document_only",
+  "country": "Synthetic",
+  "started_at": "2026-01-01T00:00:00Z",
+  "completed_at": "2026-01-01T00:00:01Z",
+  "prompt_versions": {"stage1": 6, "stage2": 1},
+  "sample": true
+}

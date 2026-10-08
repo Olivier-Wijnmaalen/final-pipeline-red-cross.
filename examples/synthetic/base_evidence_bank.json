@@ -1,0 +1,19 @@
+{
+  "evidence_items": [
+    {
+      "evidence_id": "SYNTH-0001",
+      "dimension": "A",
+      "subdimension": "A.1",
+      "evidence_scope": "country",
+      "country_specificity": "Synthetic",
+      "supporting_quote": "This is fictional baseline evidence.",
+      "evidence_statement": "A fictional actor has a documented role.",
+      "reasoning_identification": "Synthetic demonstration only.",
+      "interpretation_boundary": "Not valid for a real assessment.",
+      "source_file": "synthetic-baseline.md",
+      "source_url": "https://example.org/synthetic-baseline",
+      "page_number": "1",
+      "use_in_country_assessment": true
+    }
+  ]
+}

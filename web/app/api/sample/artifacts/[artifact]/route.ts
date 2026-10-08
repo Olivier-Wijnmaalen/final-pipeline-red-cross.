@@ -1,0 +1,3 @@
+import {readFile} from "fs/promises";import path from "path";
+const files={evidence:"base_evidence_bank.json",score:"expected/final_score.validated.json",manifest:"manifest.json",dashboard:"dashboard-data.json"} as const;
+export async function GET(_:Request,{params}:{params:Promise<{artifact:string}>}){try{const {artifact}=await params;if(!(artifact in files))throw new Error();const relative=files[artifact as keyof typeof files];const body=await readFile(path.resolve(process.cwd(),"..","examples","synthetic",...relative.split("/")));return new Response(body,{headers:{"content-type":"application/json","content-disposition":`attachment; filename="${artifact}.json"`}})}catch{return Response.json({error:"Artifact not found"},{status:404})}}

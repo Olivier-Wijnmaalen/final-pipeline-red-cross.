@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "Manual export from Langfuse",
+  "prompts": {
+    "stage1": {
+      "name": "dema-lenient-calibration/evidence-extraction",
+      "version": 6,
+      "file": "stage1-evidence-extraction.txt",
+      "sha256": "d2436f48ec0c9ff693f2b4f1964adc21e179995ec11905d1bf70902bcd8c355c",
+      "expected_variables": [
+        "Country",
+        "input_text"
+      ],
+      "config": {}
+    },
+    "stage2": {
+      "name": "dema-stage2-final-strategy-20260916-p5",
+      "version": 1,
+      "file": "stage2-maturity-scoring.txt",
+      "sha256": "19520d1d71c80ba4a4eac3db09107e82f53ff932fd1ab4bb3b935a1cdadfeeec",
+      "expected_variables": [
+        "databank"
+      ],
+      "config": {}
+    }
+  }
+}

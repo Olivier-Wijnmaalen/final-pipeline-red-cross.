@@ -1,0 +1,26 @@
+{
+  "validation_status": "synthetic_example_only",
+  "warnings": [],
+  "result": {
+    "country": "Synthetic",
+    "framework_version": "synthetic demonstration",
+    "assessment_summary": "This fictional output demonstrates the validated result structure and is not a real assessment.",
+    "indicator_assessments": [
+      {
+        "indicator_code": "A.1.1",
+        "phase_score": 1,
+        "evidence_supporting_score": [
+          "SYNTH-0001"
+        ],
+        "contrary_or_limiting_evidence": [],
+        "assigned_phase_requirement_checks": [
+          {
+            "status": "SUPPORTED",
+            "note": "Synthetic structure demonstration only."
+          }
+        ],
+        "score_reasoning": "This abbreviated fictional reasoning is provided only to show the output fields. Real validated model output must satisfy the full reasoning-length and evidence requirements enforced by the pipeline."
+      }
+    ]
+  }
+}

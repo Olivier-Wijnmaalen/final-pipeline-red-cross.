@@ -1,0 +1,27 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+dema_run/
+*_run/
+runs/
+web/.next/
+web/node_modules/
+web/coverage/
+*.tsbuildinfo
+
+# Input documents and evidence banks require an explicit publication review.
+data/chunks/
+data/base_evidence_bank.json
+final_substantive_corpus_files/
+source_documents/
+prepared_data/
+
+# Local editor and operating-system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
